@@ -1,4 +1,4 @@
-# EIRBOT 2020-1A : Equipe EIRBOAT ![Code check](https://github.com/eirbot/eirbot2020-1A/workflows/Code%20check/badge.svg) ![Documentation](https://github.com/eirbot/eirbot2020-1A/workflows/Documentation/badge.svg) ![Valgrind](https://github.com/eirbot/eirbot2020-1A/workflows/Valgrind/badge.svg)
+# EIRBOT 2021-2A : Equipe EIRBOT
 
 ![alt text](loutreB&W.png)
 
