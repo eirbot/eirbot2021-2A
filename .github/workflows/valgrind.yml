@@ -1,0 +1,35 @@
+name: Valgrind
+
+on:
+  push:
+    branches: [ master ]
+    paths-ignore:
+    - '.github/**'
+    - 'alim/**'
+    - 'meca/**'
+    - 'reunion/**'
+  pull_request:
+    branches: [ master ]
+    paths-ignore:
+    - '.github/**'
+    - 'alim/**'
+    - 'meca/**'
+    - 'reunion/**'
+
+jobs:
+
+   Valgrind_check :
+    runs-on: ubuntu-latest
+    steps :
+      - uses: codecov/codecov-action@v1
+      - uses : actions/checkout@v2
+      - name : valgrind build
+        run: |
+          sudo apt-get install -y valgrind
+          cd code 
+          cd build
+          cmake .. 
+          cd ../../
+          make code
+          valgrind ./code/build/bin/project
+
