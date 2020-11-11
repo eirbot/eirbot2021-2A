@@ -1,15 +1,9 @@
-# EIRBOT 2020-1A : Equipe EIRBOAT 
+# EIRBOT 2020-1A : Equipe EIRBOAT ![Code check](https://github.com/eirbot/eirbot2020-1A/workflows/Code%20check/badge.svg) ![Documentation](https://github.com/eirbot/eirbot2020-1A/workflows/Documentation/badge.svg) ![Valgrind](https://github.com/eirbot/eirbot2020-1A/workflows/Valgrind/badge.svg)
 
 ![alt text](loutreB&W.png)
 
----
 
-Résultat de l'équipe à l'édition d'octobre 2020 : 24 ième / 51
----
-
-Ceci est le dépôt de l'équipe de 1A de l'association de robotique Eirbot. La
-description de l'avancement des différents projets est disponible via la 
-[descrition](https://github.com/eirbot/eirbot2020-1A/blob/master/description/descrption.pdf) de nos projets. Le projet se divise en plusieures catégories allant du plus bas au plus au niveau (en terme de raprochement avec le côté physique). 
+Ceci est le dépôt de l'équipe de 2A de l'association de robotique Eirbot. 
 
 ## Membres
 Ce projet est réalisé par les différents membres de Eirbot en première année : 
@@ -25,3 +19,4 @@ Ce projet est réalisé par les différents membres de Eirbot en première anné
 - Savary Clément (SEE)
 - Vaquori Yohann
 - Vidal Martin
+
