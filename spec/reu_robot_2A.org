@@ -1,0 +1,97 @@
+#+TITLE: Reu Robot
+
+* à faire:
+- [ ] récupérer les dimensions de ce qu'on connait
+- [ ] estimer les pins utilisés
+- [-] specs elec
+- [-] specs info
+- [ ] specs méca/actionneurs
+- elec
+  + [ ] carte puissance (pont en H)
+  + [ ] shield nucleo
+  + [ ] (carte alim)
+
+
+
+* discussion info
+- CPA (capteur programme action)
+  + capteur
+    - encodeur
+    - Lidar
+    - detection bord
+    - bouton init
+    - RF
+  + action
+    - pince écueil
+    - pavillon
+    - bras
+    - moteur
+    - afficheur
+  + traitement
+    - modéliser l'environnement
+    - navigation
+    - définition objectifs
+    - gestion des objectifs
+  + contraintes
+    - temps 100s
+    - puissance calcul et RAM
+    - asserv en tache de fond
+
+
+  
+
+* liste de ce qu'on a dans le robot
+- déplacement: moteur, encodeur, carte puissance
+- énergie : batterie, carte de sécu, carte d'alim(10cm*10cm), arrêt urgence
+- contrôle : microcontroleur principal, sous modules pour actioneur ? -> penser aux PWM
+- détection:
+  - bords: capteur en partie basse ? (important pour les recalages)
+  - ecocup: pour les éviter ? pour les récupérer ?
+  - adversaire: Lidar partie supérieure ? (en priorité)
+- action:
+  - phare: un bras simple devant ou comme l'année dernière sur les côtés
+  - manche à air: meme bras que manche à air
+  - ramasser les ecocups:
+    + ecocups écueils: plus simple, pas mal de point, actionneur badass
+    + ecocups sur table: prévoir des emplacements ?
+  - balise N/S: arduino nano -> rf433MHz
+  - pavillon: on reprend pareil ou on met juste un petit servo
+  - affichage: comptage des points (réduction de la taille, utilisation d'un afficheur 16x2, ???)
+- utilisateur:
+  + démarrage, switch équipe, switchs configuration
+  + bip
+  + reset total
+  + écran pour l'état ? (avec les points ?)
+  + debug: dans le code prévoir des fonctions qui renvoie les données importantes
+
+
+gestion de projet: Martin
+
+
+* ce qu'on veut faire et qui fait quoi
+** méca
+- forme : octogone aplati
+- système étage
+- 1 robot
+- gens: Erwann, Sébastien, Émile
+
+** Actionneurs
+- ramasser les écocups des récifs
+- relevage des manches à air
+- méca + controle + élec
+- gens: Aurélian, Marius, Sébastien
+
+** élec
+- routage: alim, puissance, carte microcontroleur
+- gens: Yohann, Lucas, Filipe
+
+** info
+*** asserv
+- gestion des problèmes: murs, décalages, ... !
+- gens: Emile, Marius, Lucas
+*** détection
+- traitement du Lidar si Lidar
+- gens: Liam, Aurélian
+*** stratégie
+- machine à état en gros
+- gens: Yohann, SÉbastien
