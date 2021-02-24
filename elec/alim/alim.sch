@@ -449,10 +449,8 @@ Text Label 1900 4950 0    50   ~ 0
 Vbat
 Wire Wire Line
 	1900 4950 1900 4650
-Text Label 1800 3850 0    50   ~ 0
+Text Label 2000 3950 0    50   ~ 0
 Vpow
-Wire Wire Line
-	1800 3850 1800 4050
 $Comp
 L Device:Fuse F2
 U 1 1 603AF4E5
@@ -563,7 +561,7 @@ Wire Wire Line
 Connection ~ 9800 3750
 Wire Wire Line
 	9800 3750 9000 3750
-NoConn ~ 2000 4050
+NoConn ~ 1800 4050
 $Comp
 L Device:Fuse F5
 U 1 1 6035F0F3
@@ -645,4 +643,6 @@ Wire Wire Line
 Connection ~ 9700 5200
 Wire Wire Line
 	9700 5200 9000 5200
+Wire Wire Line
+	2000 3950 2000 4050
 $EndSCHEMATC
