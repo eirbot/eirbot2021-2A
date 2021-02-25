@@ -232,7 +232,7 @@ U 1 1 60379B73
 P 4150 3550
 F 0 "F1" V 3953 3550 50  0000 C CNN
 F 1 "5A" V 4044 3550 50  0000 C CNN
-F 2 "Fuse:Fuse_Blade_ATO_directSolder" V 4080 3550 50  0001 C CNN
+F 2 "fuse:fusible_alim" V 4080 3550 50  0001 C CNN
 F 3 "~" H 4150 3550 50  0001 C CNN
 	1    4150 3550
 	0    1    1    0   
@@ -457,7 +457,7 @@ U 1 1 603AF4E5
 P 4150 5000
 F 0 "F2" V 3953 5000 50  0000 C CNN
 F 1 "5A" V 4044 5000 50  0000 C CNN
-F 2 "Fuse:Fuse_Blade_ATO_directSolder" V 4080 5000 50  0001 C CNN
+F 2 "fuse:fusible_alim" V 4080 5000 50  0001 C CNN
 F 3 "~" H 4150 5000 50  0001 C CNN
 	1    4150 5000
 	0    1    1    0   
@@ -542,7 +542,7 @@ U 1 1 603F6A17
 P 10650 5650
 F 0 "J23" H 10622 5532 50  0000 R CNN
 F 1 "Conn_01x02_Male" H 10622 5623 50  0000 R CNN
-F 2 "Connector_Wire:SolderWire-1sqmm_1x02_P5.4mm_D1.4mm_OD2.7mm" H 10650 5650 50  0001 C CNN
+F 2 "Connector_Wire:SolderWire-0.127sqmm_1x02_P3.7mm_D0.48mm_OD1mm" H 10650 5650 50  0001 C CNN
 F 3 "~" H 10650 5650 50  0001 C CNN
 	1    10650 5650
 	-1   0    0    1   
@@ -568,7 +568,7 @@ U 1 1 6035F0F3
 P 7200 1600
 F 0 "F5" V 7003 1600 50  0000 C CNN
 F 1 "10A" V 7094 1600 50  0000 C CNN
-F 2 "Fuse:Fuse_Blade_ATO_directSolder" V 7130 1600 50  0001 C CNN
+F 2 "fuse:fusible_alim" V 7130 1600 50  0001 C CNN
 F 3 "~" H 7200 1600 50  0001 C CNN
 	1    7200 1600
 	0    1    1    0   
