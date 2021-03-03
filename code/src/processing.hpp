@@ -1,0 +1,6 @@
+#ifndef __ASSERVISSEMENT_H_
+#define __ASSERVISSEMENT_H_
+
+
+
+#endif // __ASSERVISSEMENT_H_
