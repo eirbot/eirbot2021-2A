@@ -1,11 +1,13 @@
 #ifndef __ACTION_H_
 #define __ACTION_H_
-#include "debug.cpp"
+#include "tools.cpp"
+
 class Action: public Debug{
     private :
+        const std::string _name;
         int _state;
     public :
-        Action();
+        Action(const std::string);
         ~Action();
         void changeState();
         void printDebug();
