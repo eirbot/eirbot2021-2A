@@ -2,14 +2,14 @@ name: Valgrind
 
 on:
   push:
-    branches: [ master ]
+    branches: [ main ]
     paths-ignore:
     - '.github/**'
     - 'alim/**'
     - 'meca/**'
     - 'reunion/**'
   pull_request:
-    branches: [ master ]
+    branches: [ main ]
     paths-ignore:
     - '.github/**'
     - 'alim/**'
