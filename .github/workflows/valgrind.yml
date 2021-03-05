@@ -44,6 +44,6 @@ jobs:
         cd build
         cmake .. 
         make test
-        valgrind ./code/build/bin/test
+        valgrind ./bin/test
       
 
