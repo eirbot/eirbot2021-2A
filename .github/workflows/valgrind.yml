@@ -28,7 +28,7 @@ jobs:
           mkdir build
           cd build
           cmake .. 
-          make code
+          make project
           valgrind ./bin/project
           
    ValgrindCheckTest :
@@ -43,7 +43,7 @@ jobs:
         mkdir build
         cd build
         cmake .. 
-        make code
+        make test
         valgrind ./code/build/bin/test
       
 
