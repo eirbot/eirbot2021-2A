@@ -18,7 +18,7 @@ on:
 
 jobs:
 
-   Valgrind_check :
+   ValgrindCheckProject :
     runs-on: ubuntu-latest
     steps :
       - uses: codecov/codecov-action@v1
@@ -26,10 +26,28 @@ jobs:
       - name : valgrind build
         run: |
           sudo apt-get install -y valgrind
-          cd code 
+          cd code
+          mkdir build
           cd build
           cmake .. 
           cd ../../
           make code
           valgrind ./code/build/bin/project
+          
+   ValgrindCheckTest :
+    runs-on: ubuntu-latest
+    steps :
+    - uses: codecov/codecov-action@v1
+    - uses : actions/checkout@v2
+    - name : valgrind build
+      run: |
+        sudo apt-get install -y valgrind
+        cd code
+        mkdir build
+        cd build
+        cmake .. 
+        cd ../../
+        make code
+        valgrind ./code/build/bin/test
+      
 
