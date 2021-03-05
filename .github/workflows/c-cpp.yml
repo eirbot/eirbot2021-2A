@@ -26,6 +26,7 @@ jobs:
     - name: make
       run: | 
         cd code 
+        mkdir build
         cd build
         cmake .. 
         make project
@@ -38,6 +39,7 @@ jobs:
       - name: make test
         run: | 
           cd code 
+          mkdir build
           cd build
           cmake .. 
           cd ../../
