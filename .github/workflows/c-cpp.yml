@@ -42,7 +42,6 @@ jobs:
           mkdir build
           cd build
           cmake .. 
-          cd ../../
           make test
       - uses: actions/checkout@v2
       - name: coverage
