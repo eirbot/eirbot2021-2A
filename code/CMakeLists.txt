@@ -20,6 +20,8 @@ file(GLOB TSTS
 
 add_executable(project ${SRCS} ${HEADERS})
 
+add_executable(test ${TSTS})
+
 ###########
 # Doxygen #
 ###########
