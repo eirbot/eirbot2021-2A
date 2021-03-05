@@ -2,14 +2,14 @@ name: Code check
 
 on:
   push:
-    branches: [ master ]
+    branches: [ main ]
     paths-ignore:
     - '.github/**'
     - 'alim/**'
     - 'meca/**'
     - 'reunion/**'
   pull_request:
-    branches: [ master ]
+    branches: [ main ]
     paths-ignore:
     - '.github/**'
     - 'alim/**'
@@ -26,6 +26,7 @@ jobs:
     - name: make
       run: | 
         cd code 
+        mkdir build
         cd build
         cmake .. 
         make project
@@ -38,6 +39,7 @@ jobs:
       - name: make test
         run: | 
           cd code 
+          mkdir build
           cd build
           cmake .. 
           cd ../../
