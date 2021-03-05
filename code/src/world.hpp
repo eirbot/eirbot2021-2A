@@ -1,6 +1,6 @@
 #ifndef __WORLD_H_
 #define __WORLD_H_
-#include "tools.cpp"
+#include "tools.hpp"
 
 class World : public Debug{
     private :

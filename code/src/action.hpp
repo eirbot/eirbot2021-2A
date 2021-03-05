@@ -1,6 +1,6 @@
 #ifndef __ACTION_H_
 #define __ACTION_H_
-#include "tools.cpp"
+#include "tools.hpp"
 
 /**
  * @fle  action.hpp*/
@@ -16,7 +16,7 @@ class Action: public Debug{
         Action(const std::string); /*!< Constructeur avec un nom (état à 0 par défaut)*/
         ~Action();
         void changeState(); /*!< Réalise les actions pour changer l'état de l'actionneur */
-        void printDebug();
+        const void printDebug();
 };
 
 

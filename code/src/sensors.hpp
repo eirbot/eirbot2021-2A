@@ -1,6 +1,6 @@
 #ifndef __SENSORS_H_
 #define __SENSORS_H_
-#include "tools.cpp"
+#include "tools.hpp"
 
 class Sensors : public Debug{
     private :
