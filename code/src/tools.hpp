@@ -22,6 +22,8 @@ private:
   const virtual void printDebug() = 0;/*!< Fonction virtuelle pure permettant d'obtenir une méthode printDebug dans toutes les classes filles */
 };
 
+/**
+ * @class Position*/
 class Position{
   public :
     int x;
