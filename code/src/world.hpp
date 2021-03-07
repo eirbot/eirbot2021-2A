@@ -9,7 +9,7 @@ class World : public Debug{
     private :
         const int _width; /*!< Largeur de la table */
         const int _length; /*!< Longueur de la table */
-        std::vector<Position> obstacle; /*!< Liste des obstacles critiques */
+        std::vector<Position> _obstacle; /*!< Liste des obstacles critiques */
         const enum Side _side;/*!< Côté de la table */
     public :
         World();
@@ -18,7 +18,7 @@ class World : public Debug{
         const int getWidth(); /*!< Renvoie la largueur de la table */
         const int getLength(); /*!< Renvoie la longueur de la table */
         const int getSide(); /*!< Renvoie le côté de la table */
-        const void printDebug();
+        const virtual void printDebug();
 
 };
 

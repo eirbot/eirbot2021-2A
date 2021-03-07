@@ -76,4 +76,5 @@ class StateMachina : public Debug{
         void strategyYellow(); /*!< Stratégie côté jaune */
 };
 
+
 #endif // __PROCESSING_H_
