@@ -4,14 +4,12 @@ on:
   push:
     branches: [ main ]
     paths-ignore:
-    - '.github/**'
     - 'alim/**'
     - 'meca/**'
     - 'reunion/**'
   pull_request:
     branches: [ main ]
     paths-ignore:
-    - '.github/**'
     - 'alim/**'
     - 'meca/**'
     - 'reunion/**'
@@ -42,19 +40,5 @@ jobs:
           mkdir build
           cd build
           cmake .. 
-          cd ../../
           make test
-      - uses: actions/checkout@v2
-      - name: coverage
-        run: |
-          cd code 
-          cd build
-          cmake ..
-          cd ../../
-          make test
-          sudo apt install lcov
-          lcov --capture --directory . --output-file coverage.info
-          lcov --remove coverage.info '/usr/*' --output-file coverage.info # filter system-files
-          lcov --list coverage.info # debug info
-          bash <(curl -s https://codecov.io/bash) -f coverage.info || echo "Codecov did not collect coverage reports"    
       
