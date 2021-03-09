@@ -7,14 +7,24 @@ set(CMAKE_EXPORT_COMPILE_COMMANDS ON)
 set(EXECUTABLE_OUTPUT_PATH bin/${CMAKE_BUILD_TYPE})
 set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -std=c++11 -g -O3")
 
-set(SRCS
+set(MAIN
   src/processing.cpp)
-file(GLOB HEADERS
-  src/"*.hpp")
+set(SRCS
+  src/world.cpp
+  src/action.cpp
+  src/sensors.cpp
+  src/tools.cpp)
+set(HEADERS
+  src/world.hpp
+  src/action.hpp
+  src/sensors.hpp
+  src/tools.hpp)
 file(GLOB TSTS
   tst/*)
 
-add_executable(project ${SRCS} ${HEADERS})
+add_executable(project ${MAIN} ${SRCS} ${HEADERS})
+
+add_executable(test ${TSTS} ${SRCS} ${HEADERS})
 
 ###########
 # Doxygen #

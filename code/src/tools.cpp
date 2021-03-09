@@ -1,23 +1,8 @@
-#include <string>
-#include <vector>
+#include "tools.hpp"
 
-class Debug {
-private:
-    const bool _debug;
-  public:
-    Debug(bool);
-    ~Debug();
-  void debugable() {
-    if (_debug == true)
-      this->printDebug();
-  }
-  const virtual void printDebug() = 0;
-};
-
-class Position{
-  public :
-    int x;
-    int y;
-};
-
-enum Side{BLUE, YELLOW};
+void printVectorPosition(std::vector<Position> position){
+      for (int i=0; i < position.size(); i++) {
+            std::cout << "(" << position[i].x << "," << position[i].y << ")";
+      }
+      std::cout << std::endl;
+}
