@@ -8,3 +8,4 @@ tmp/
 .out
 code/build/
 .ccls-cache/
+./SonarQube/Analyze/jre/
