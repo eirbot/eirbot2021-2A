@@ -1,0 +1,4 @@
+<map id="World" name="World">
+<area shape="rect" id="node1" title=" " alt="" coords="7,80,62,107"/>
+<area shape="rect" id="node2" href="$class_debug.html" title="Classe permettant d&#39;afficher le debug de toutes les autres classes." alt="" coords="5,5,64,32"/>
+</map>

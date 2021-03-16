@@ -100,8 +100,17 @@ $(document).ready(function(){initNavTree('md__r_e_a_d_m_e.html',''); initResizab
 <li>Poupon Julien</li>
 <li>Savary Clément (SEE)</li>
 <li>Vaquori Yohann</li>
-<li>Vidal Martin </li>
+<li>Vidal Martin</li>
 </ul>
+<h1>Organisation du projet</h1>
+<p>Le projet est découpé selon 4 axes correspondant aux 4 domaines de la construction de notre robot. La conception mécanique du robot est disponible dans le dossier <code>meca/</code>, les fichiers ont été réalisés sur Solidworks / onshape. La réalisation du robot a été faite grâce à des imprimantes 3D, découpeuse laser et fraiseuse disponibles au fablab de l'école. Dans le dossier <code>elec/</code> les différents fichiers des cartes électroniques que nous avons réalisé sont disponibles (fichiers kicad), elles ont été réalisées grâce à la chimie de l'enseirb et à la fraiseuse du fablab. Le dossier <code>spec/</code>contient tous les fichiers d'organisation de l'équipe. Finalement le dossier <code>code/</code>contient les différents code de ntore robot, un tutoriel dpour les déployer est disponible ci dessous.</p>
+<h1>Installer le projet</h1>
+<p>La compilation du projet est réalisée via <code>cmake</code> il est donc nécessaire de posséder le packet (<code>sudo apt install cmake</code> sous ubuntu) ainsi qu'un compilateur de c++ (<code>sudo apt install g++</code>).</p>
+<p>Effectuez ensuite les commandes suivantes : </p><div class="fragment"><div class="line">cd code/</div>
+<div class="line">mkdir build/</div>
+<div class="line">cd build/</div>
+<div class="line">cmake ..</div>
+</div><!-- fragment --><p>Vous pouvez ensuite compiler le projet depuis le dossier build avec la commande <code>make project</code> ou <code>make test</code> </p>
 </div></div><!-- contents -->
 </div><!-- PageDoc -->
 </div><!-- doc-content -->

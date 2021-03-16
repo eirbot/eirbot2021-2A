@@ -1,0 +1,4 @@
+<map id="Sensors" name="Sensors">
+<area shape="rect" id="node1" title="Classe permettant de modéliser les capteurs du robot." alt="" coords="5,80,76,107"/>
+<area shape="rect" id="node2" href="$class_debug.html" title="Classe permettant d&#39;afficher le debug de toutes les autres classes." alt="" coords="11,5,70,32"/>
+</map>

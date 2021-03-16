@@ -1,0 +1,4 @@
+<map id="Control" name="Control">
+<area shape="rect" id="node1" title="Classe permettant de relier la stratégie et l&#39;Asservissement." alt="" coords="5,80,68,107"/>
+<area shape="rect" id="node2" href="$class_debug.html" title="Classe permettant d&#39;afficher le debug de toutes les autres classes." alt="" coords="7,5,66,32"/>
+</map>

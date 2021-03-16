@@ -1,0 +1,4 @@
+<map id="StateMachina" name="StateMachina">
+<area shape="rect" id="node1" title="Machine à état permettant de dérouler la stratégie." alt="" coords="5,80,108,107"/>
+<area shape="rect" id="node2" href="$class_debug.html" title="Classe permettant d&#39;afficher le debug de toutes les autres classes." alt="" coords="27,5,86,32"/>
+</map>
