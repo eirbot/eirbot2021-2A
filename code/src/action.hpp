@@ -16,7 +16,7 @@ class Action: public Debug{
         Action(const std::string); /*!< Constructeur avec un nom (état à 0 par défaut)*/
         ~Action();
         void changeState(); /*!< Réalise les actions pour changer l'état de l'actionneur */
-        const void printDebug();
+        void const printDebug();
 };
 
 

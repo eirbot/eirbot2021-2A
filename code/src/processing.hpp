@@ -17,7 +17,7 @@ private:
   float _speed;       /*!< Vitesse actuelle du robot (facultatif) */
 public:
   Control();
-  ~Control();
+    ~Control();
 
 /**
  * @brief Permet de se déplacer relativement
@@ -46,7 +46,7 @@ class Objective : public Debug{
         Objective(const Position position, const time_t time, const Action actionneur, const Control control);/*!< Constructeur d'un objectif complet */
         Objective(const Objective* objective);/*!< Constructeur par recopie */
         void treatment();/*!< Fonction de traitement de l'objectif */
-        const void printDebug();
+         void const printDebug();
 };
 
 /**
