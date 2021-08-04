@@ -28,4 +28,4 @@ Le projet est découpé selon 4 axes correspondant aux 4 domaines de la construc
 
 Suite à la pandémie de covid-19 la coupe de France de robotique a été déplacé à juillet 2021. Malheureusement, l'association étant composée d'élèves ingénieurs ces derniers sont en stage sur cette période nous n'avons pas pu participer à cette édition. 
 
-Eirbot a cependant été représenté par des anciens de l'association, l'équipe [Pokibot]()
+Eirbot a cependant été représenté par des anciens de l'association, l'équipe [Pokibot](https://github.com/Pokibot-org/pokirobotsoft)
